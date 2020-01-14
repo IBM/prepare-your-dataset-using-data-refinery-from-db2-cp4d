@@ -1,5 +1,4 @@
-# prepare-your-dataset-using-data-refinery-from-db2-cp4d
-Prepare your Dataset for your ML Models using Data Refinery from Db2 on Cp4d
+# Prepare your Dataset for your ML Models using Data Refinery from Db2 on Cp4d
 
 The README for a code pattern is very prescriptive, use the following template to get you started.
 
