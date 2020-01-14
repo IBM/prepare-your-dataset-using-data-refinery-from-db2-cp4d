@@ -47,17 +47,18 @@ Clone the `prepare-your-dataset-using-data-refinery-from-db2-cp4` repo locally. 
 git clone https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d/
 ```
 
-We’ll be using the file [`data/assistant/workspaces/banking.json`](data/assistant/workspaces/banking.json) and the folder
-[`data/assistant/workspaces/`](data/assistant/workspaces/)
+We’ll be using the following files: 
+1. [`data/olist_orders_dataset.csv`](data/olist_orders_dataset.csv)
+2. [`data/olist_order_items_dataset.csv`](data/olist_order_items_dataset.csv)
+3. [`data/olist_products_dataset.csv`](data/olist_products_dataset.csv)
+4. [`data/olist_sellers_dataset.csv`](data/olist_sellers_dataset.csv)
 
-### 2. Create Watson services
+### 2. Load the data into tables in Db2
 
-Create the following services:
+**NOTE: We are Assuming that you have already Provisioned a Db2 Instance in your Cloud Pak for Data**
 
-* [**Watson Assistant**](https://cloud.ibm.com/catalog/services/assistant)
-* [**Watson Discovery**](https://cloud.ibm.com/catalog/services/discovery)
-* [**Watson Tone Analyzer**](https://cloud.ibm.com/catalog/services/tone-analyzer)
-* [**Watson Natural Language Understanding**](https://cloud.ibm.com/catalog/services/natural-language-understanding)
+* Open the Db2 Instance and click on load data.
+
 
 ### 3. Import the Watson Assistant workspace
 
