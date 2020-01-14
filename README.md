@@ -89,6 +89,9 @@ We’ll be using the following files:
 
 ![loadMoreData](doc/source/images/loadMoreData.png)
 
+* The Other three tables that we will be creating are **ORDERITEMS, PRODUCTS & SELLER** .
+
+![gif](doc/source/images/load_db2.gif)
 
 ### 3. Import the Watson Assistant workspace
 
