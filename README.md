@@ -87,7 +87,7 @@ We’ll be using the following files:
 
 * Once the table is being created, click on **Load More Data** to add the other three datasets.
 
-![loadMoreData]
+![loadMoreData](doc/source/images/loadMoreData.png)
 
 
 ### 3. Import the Watson Assistant workspace
