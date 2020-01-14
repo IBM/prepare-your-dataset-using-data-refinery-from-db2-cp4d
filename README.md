@@ -31,7 +31,7 @@ When you have completed this code pattern, you will understand how to:
 
 # Steps
 
-1. [Clone the repo](#1-clone-the-repo).
+1. [Download the Data](#1-download-the-data).
 2. [Load the data into tables in Db2](#2-load-the-data-into-tables-in-db2).
 3. [Create a Project in Cloud Pak for Data](#3-create-a-project-in-cloud-pak-for-data)
 4. [Add Db2 connection to the project](#4-add-db2-connection-to-the-project).
@@ -39,19 +39,24 @@ When you have completed this code pattern, you will understand how to:
 6. [Perform Data Engineering Operations in Data Refinery](#6-perform-data-engineering-operations-in-data-refinery).
 7. [Save the Enhanced Dataset to a table in Db2](#7-save-the-enhanced-dataset-to-a-table-in-db2).
 
-### 1. Clone the repo
+### 1. Download the data.
 
-Clone the `prepare-your-dataset-using-data-refinery-from-db2-cp4` repo locally. In a terminal, run:
+In this Tutorial we are going to use **Brazilian E-Commerce Public Dataset by Olist** from Kaggle. Download the dataset from the link given below.
 
-```bash
-git clone https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d/
-```
+* https://www.kaggle.com/olistbr/brazilian-ecommerce
+
+After Downloading, Extract the `brazilian-ecommerce.zip` file.
 
 We’ll be using the following files: 
-1. [`data/olist_orders_dataset.csv`](data/olist_orders_dataset.csv)
-2. [`data/olist_order_items_dataset.csv`](data/olist_order_items_dataset.csv)
-3. [`data/olist_products_dataset.csv`](data/olist_products_dataset.csv)
-4. [`data/olist_sellers_dataset.csv`](data/olist_sellers_dataset.csv)
+1. [`brazilian-ecommerce/olist_orders_dataset.csv`]()
+  This is the core dataset. From each order you might find all other information.
+2. [`brazilian-ecommerce/olist_order_items_dataset.csv`]()
+  This dataset includes data about the items purchased within each order.
+3. [`brazilian-ecommerce/olist_products_dataset.csv`]()
+  This dataset includes data about the products sold by Olist.
+4. [`brazilian-ecommerce/olist_sellers_dataset.csv`]()
+  This dataset includes data about the sellers that fulfilled orders made at Olist.
+
 
 ### 2. Load the data into tables in Db2
 
