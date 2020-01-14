@@ -93,95 +93,33 @@ We’ll be using the following files:
 
 ![gif](doc/source/images/load_db2.gif)
 
-### 3. Import the Watson Assistant workspace
+* Load the olist_order_items_dataset.csv, olist_products_dataset.csv & olist_sellers_dataset.csv by repeating the above steps.
 
-* Find the Watson Assistant service in your IBM Cloud Dashboard.
-* Select the service, and then click **Launch tool**.
-* Go to the **Skills** tab.
-* Click **Create skill**.
-* Click the **Import skill** tab.
-* Click **Choose JSON file**, go to your cloned repo dir, and `Open` the workspace.json file in `data/conversation/workspaces/banking.json` (or the old full version in `full_banking.json`).
-* Select **Everything**, and click **Import**.
+### 3. Create a Project in Cloud Pak for Data
 
-To find the `WORKSPACE_ID` for Watson Assistant:
+Once the Database is ready, we will start using the database in our Cloud Pak for Data. 
 
-* Go back to the **Skills** tab.
-* Click the three dots in the upper-right corner of the **watson-banking-chatbot** card, and select **View API Details**.
-* Copy the `Workspace ID` GUID.
-  ![view_api_details](doc/source/images/view_api_details.png)
+* Create a Project in Cloud Pak for Data choose an Empty Project.
 
-*Optionally*, to view the assistant dialog, select the workspace and choose the
-**Dialog** tab. Here's a snippet of the dialog:
+![createProject](doc/source/images/emptyProject.png)
 
-![dialog](doc/source/images/dialog.PNG)
+* Once The Project is Created you will see the below page.
 
-### 4. Load the Watson Discovery documents
+![projectDashboard](doc/source/images/projectDashboard.png)
 
-Launch the **Watson Discovery** tool. Create a **new data collection**,
-and give the data collection a unique name.
 
-> Save the **environment_id** and **collection_id** for your `.env` file in the next step.
+### 4. Add Db2 connection to the project
 
-Under **Add data to this collection**, use **Drag and drop your documents here or browse from computer** to seed the content with the five documents in `data/discovery/docs`.
+Now that we have created a project, we will start adding components to our project. We will start by adding Db2 Connection to our project first.
 
-### 5. Configure credentials
+* Click on **Add to Project** and select **Connection**. If you have followed [step 2](#2-load-the-data-into-tables-in-db2) select **Db2** from the list and add the credentials of your provisioned Db2 Instance. If you have a different database then you can select that and fill in the credentials.
 
-The credentials for IBM Cloud services (Watson Assistant, Watson Discovery, 
-Watson Tone Analyzer and Watson Natural Language Understanding) can be found in the **Services** menu in IBM Cloud
-by selecting the **Service Credentials** option for each service.
+![gif](doc/source/images/create_connection.gif)
 
-The other settings for Watson Assistant and Watson Discovery were collected during the
-earlier setup steps (``DISCOVERY_COLLECTION_ID``, ``DISCOVERY_ENVIRONMENT_ID``, and
-``WORKSPACE_ID``).
+* After filling the credentials click on **Test Connection** to make sure you have entered correct credentials. Finally select **Create**.
 
-Copy the [`env.sample`](env.sample) to `.env`.
+![connection](doc/source/images/connImage.png)
 
-```bash
-cp env.sample .env
-```
-Edit the `.env` file with the necessary settings.
-
-#### `env.sample:`
-
-```bash
-# Copy this file to .env and replace the credentials with
-# your own before starting the app.
-
-# Note: If you are using older services, you may need _USERNAME and _PASSWORD
-# instead of _IAM_APIKEY.
-
-# Watson Assistant
-WORKSPACE_ID=<add_assistant_workspace>
-ASSISTANT_URL=<add_assistant_url>
-ASSISTANT_IAM_APIKEY=<add_assistant_iam_apikey>
-
-# Watson Discovery
-DISCOVERY_URL=<add_discovery_url>
-DISCOVERY_ENVIRONMENT_ID=<add_discovery_environment_id>
-DISCOVERY_COLLECTION_ID=<add_discovery_collection_id>
-DISCOVERY_IAM_APIKEY=<add_discovery_iam_apikey>
-
-# Watson Natural Language Understanding
-NATURAL_LANGUAGE_UNDERSTANDING_URL=<add_nlu_url>
-NATURAL_LANGUAGE_UNDERSTANDING_IAM_APIKEY=<add_nlu_iam_apikey>
-
-# Watson Tone Analyzer
-TONE_ANALYZER_URL=<add_tone_analyzer_url>
-TONE_ANALYZER_IAM_APIKEY=<add_tone_analyzer_iam_apikey>
-
-# Run locally on a non-default port (default is 3000)
-# PORT=3000
-```
-
-### 6. Run the application
-
-1. Install [Node.js](https://nodejs.org/en/) runtime or NPM.
-1. Start the app by running `npm install`, followed by `npm start`.
-1. Use the chatbot at `localhost:3000`.
-
-> Note: The server host can be changed as required in the server.js file, and `PORT` can be set in the `.env` file.
-
-<!--Add a section that explains to the reader what typical output looks like, include screenshots -->
 
 # Sample output
 
