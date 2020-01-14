@@ -35,9 +35,8 @@ When you have completed this code pattern, you will understand how to:
 2. [Load the data into tables in Db2](#2-load-the-data-into-tables-in-db2).
 3. [Create a Project in Cloud Pak for Data](#3-create-a-project-in-cloud-pak-for-data)
 4. [Add Db2 connection to the project](#4-add-db2-connection-to-the-project).
-5. [Add Data Refinery to the project](#5-add-data-refinery-to-the-project).
-6. [Perform Data Engineering Operations in Data Refinery](#6-perform-data-engineering-operations-in-data-refinery).
-7. [Save the Enhanced Dataset to a table in Db2](#7-save-the-enhanced-dataset-to-a-table-in-db2).
+5. [Add Data Refinery to the project and perform Data Engineering Operations](#5-add-data-refinery-to-the-project-and-perform-data-engineering-operations).
+6. [Save the Enhanced Dataset to a table in Db2](#6-save-the-enhanced-dataset-to-a-table-in-db2).
 
 ### 1. Download the data.
 
@@ -119,6 +118,17 @@ Now that we have created a project, we will start adding components to our proje
 * After filling the credentials click on **Test Connection** to make sure you have entered correct credentials. Finally select **Create**.
 
 ![connection](doc/source/images/connImage.png)
+
+
+### 5. Add Data Refinery to the project
+
+We will add Data Refinery Flow in the similar way.
+
+* Click on **Add to Project** and select **Data Refinery Flow**. 
+
+
+### 6. Save the Enhanced Dataset to a table in Db2
+
 
 
 # Sample output
