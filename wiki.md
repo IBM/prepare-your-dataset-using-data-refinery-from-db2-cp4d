@@ -18,16 +18,18 @@ Build an AI powered chatbot with Watson Assistant
 
 > Provide names and IBM email addresses.
 
-* IBMer1 <ibmer2@ibm.com>
-* IBMer2 <ibmer2@ibm.com>
+* Manoj Jahgirdar <manoj.jahgirdar@ibm.com>
+* Smruthi Raj Mohan <smrraj32@ibm.com>
+* Srikanth Manne <srikanth.manne@ibm.com>
+* Manjula Hosurmath <mhosurma@ibm.com>
 
 # URLs
 
 ### Github repo
 
-> "Get the code": Provide the link to GitHub repo for the code.
+> "Get the code": 
 
-* GitHub URL
+* https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d
 
 ### Other URLs
 
