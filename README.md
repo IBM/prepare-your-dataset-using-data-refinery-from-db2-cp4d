@@ -59,9 +59,35 @@ We’ll be using the following files:
 
 ### 2. Load the data into tables in Db2
 
-**NOTE: We are Assuming that you have already Provisioned a Db2 Instance in your Cloud Pak for Data**
+**NOTE: We are Assuming you have already Provisioned a Db2 Instance in your Cloud Pak for Data. If you do not have Db2 Instance Provisioned you can also use other on-prem, public or private Databases of your choice and load the datasets.**
 
 * Open the Db2 Instance and click on load data.
+
+![loadData](doc/source/images/loadData.png)
+
+* Select the **olist_orders_dataset.csv** file and select next.
+
+![browseFile](doc/source/images/browseFiles.png)
+
+* Choose your namespace and create a table named **ORDERS** and select next.
+
+![createTable](doc/source/images/createTable.png)
+
+* You can preview the metadata of the table and select next.
+
+![tableMetaData](doc/source/images/viewTableMeta.png)
+
+* Click on **Begin Load** to import the downloaded `.csv` file into your Db2.
+
+![beginLoad](doc/source/images/beginLoad.png)
+
+* Wait for the upload to finish and then you can add the other three datasets in the similar way.
+
+![waitForUpload](doc/source/images/waitForUpload.png)
+
+* Once the table is being created, click on **Load More Data** to add the other three datasets.
+
+![loadMoreData]
 
 
 ### 3. Import the Watson Assistant workspace
