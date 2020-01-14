@@ -1,13 +1,6 @@
+[![Build Status](https://travis-ci.org/IBM/watson-banking-chatbot.svg?branch=master)](https://travis-ci.org/IBM/https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d)
+
 # Prepare your Dataset for your ML Models using Data Refinery from Db2 on Cloud Pak for Data
-
-The README for a code pattern is very prescriptive, use the following template to get you started.
-
-<!-- Put badges at the very top -->
-<!-- Change the repo -->
-[![Build Status](https://travis-ci.org/IBM/watson-banking-chatbot.svg?branch=master)](https://travis-ci.org/IBM/watson-banking-chatbot)
-
-<!-- Add a new Title and fill in the blanks -->
-# [Title]
 
 In this code pattern, we will [create something] using [technologies] and [components]. [Explain briefly how things work]. [Give acknowledgements to others if necessary]
 
