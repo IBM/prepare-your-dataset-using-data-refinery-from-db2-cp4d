@@ -2,7 +2,7 @@
 
 # Prepare your Dataset for your ML Models using Data Refinery from Db2 on Cloud Pak for Data
 
-In this code pattern, we will [create something] using [technologies] and [components]. [Explain briefly how things work]. [Give acknowledgements to others if necessary]
+In this Tutorial, we will perform Data Engineering operations on multiple datasets using Watson Data Refinery on Cloud Pak for Data. [Explain briefly how things work]. [Give acknowledgements to others if necessary]
 
 When you have completed this code pattern, you will understand how to:
 
