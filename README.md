@@ -2,14 +2,16 @@
 
 # Prepare your Dataset for your ML Models using Data Refinery from Db2 on Cloud Pak for Data
 
-In this Tutorial, we will perform Data Engineering operations on multiple datasets using Watson Data Refinery on Cloud Pak for Data. [Explain briefly how things work]. [Give acknowledgements to others if necessary]
+In this Tutorial, we will perform Data Engineering operations on multiple datasets using Watson Data Refinery on Cloud Pak for Data. 
+
+A Data Scientist cannot directly build a model based on the dataset, the data collection and analysis is very essential before building a model. In this Tutorial we demonstrate how data scientists can easily collect data from databases, analyse the data and enhance the data according to their requirements with the help of Watson Data Refinery on Cloud Pak for Data.
 
 When you have completed this code pattern, you will understand how to:
 
-* [goal 1]
-* [goal 2]
-* [goal 3]
-* [goal 4]
+* Create a set of ordered steps to cleanse, shape, and enhance data. 
+* Create a connection with any database and Data Refinery.
+* Prepare datasets specific to your ML Model.
+* Save the datasets in any database of your choice.
 
 <!--add an image in this path-->
 ![architecture](doc/source/images/architecture.png)
@@ -29,34 +31,6 @@ When you have completed this code pattern, you will understand how to:
 [![video](http://img.youtube.com/vi/Jxi7U7VOMYg/0.jpg)](https://www.youtube.com/watch?v=Jxi7U7VOMYg)
 
 # Steps
-
-Use the **Deploy to IBM Cloud** button **OR** create the services and run locally.
-
-<!--Optionally, add a deploy to ibm cloud button-->
-
-## Deploy to IBM Cloud
-
-[![Deploy to IBM Cloud](https://cloud.ibm.com/deploy/button.png)](https://cloud.ibm.com/deploy?repository=https://github.com/IBM/watson-banking-chatbot.git)
-
-1. Press **Deploy to IBM Cloud**, and then click **Deploy**.
-
-<!--optional step-->
-2. In Toolchains, click **Delivery Pipeline** to watch while the app is deployed. After it's deployed, the app can be viewed by clicking **View app**.
-![toolchain pipeline](doc/source/images/toolchain-pipeline.png)
-
-<!--update with service names from manifest.yml-->
-
-3. To see the app and services created and configured for this code pattern, use the IBM Cloud dashboard. The app is named `watson-banking-chatbot` with a unique suffix. The following services are created and easily identified by the `wbc-` prefix:
-    * `wbc-conversation-service`
-    * `wbc-discovery-service`
-    * `wbc-natural-language-understanding-service`
-    * `wbc-tone-analyzer-service`
-
-## Run locally
-
-> NOTE: These steps are only needed when running locally instead of using the **Deploy to IBM Cloud** button.
-
-<!-- there are MANY updates necessary here, just screenshots where appropriate -->
 
 1. [Clone the repo](#1-clone-the-repo).
 2. [Create Watson services](#2-create-watson-services).
