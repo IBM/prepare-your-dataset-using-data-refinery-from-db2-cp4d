@@ -1,4 +1,4 @@
-# Prepare your Dataset for your ML Models using Data Refinery from Db2 on Cp4d
+# Prepare your Dataset for your ML Models using Data Refinery from Db2 on Cloud Pak for Data
 
 The README for a code pattern is very prescriptive, use the following template to get you started.
 
