@@ -48,21 +48,13 @@ In this Tutorial we are going to use **Brazilian E-Commerce Public Dataset by Ol
 After Downloading, Extract the `brazilian-ecommerce.zip` file.
 
 We’ll be using the following files: 
-1. [`brazilian-ecommerce/olist_orders_dataset.csv`]()
+1. [`brazilian-ecommerce/olist_orders_dataset.csv`]() : This is the core dataset. From each order you might find all other information.
 
-  This is the core dataset. From each order you might find all other information.
+2. [`brazilian-ecommerce/olist_order_items_dataset.csv`]() : This dataset includes data about the items purchased within each order.
 
-2. [`brazilian-ecommerce/olist_order_items_dataset.csv`]()
+3. [`brazilian-ecommerce/olist_products_dataset.csv`]() : This dataset includes data about the products sold by Olist.
 
-  This dataset includes data about the items purchased within each order.
-
-3. [`brazilian-ecommerce/olist_products_dataset.csv`]()
-  
-  This dataset includes data about the products sold by Olist.
-
-4. [`brazilian-ecommerce/olist_sellers_dataset.csv`]()
-  
-  This dataset includes data about the sellers that fulfilled orders made at Olist.
+4. [`brazilian-ecommerce/olist_sellers_dataset.csv`]() : This dataset includes data about the sellers that fulfilled orders made at Olist.
 
 
 ### 2. Load the data into tables in Db2
