@@ -19,11 +19,10 @@ When you have completed this code pattern, you will understand how to:
 <!--Optionally, add flow steps based on the architecture diagram-->
 ## Flow
 
-1. Step 1.
-2. Step 2.
-3. Step 3.
-4. Step 4.
-5. Step 5.
+1. Create a connection to Db2.
+2. Load the four tables in Data Refinery.
+3. Join the four tables based on the primary keys and foreign keys.
+4. Run the Data Refinery Job to save the joined Table in Db2.
 
 <!--Optionally, update this section when the video is created-->
 # Watch the Video
@@ -33,18 +32,19 @@ When you have completed this code pattern, you will understand how to:
 # Steps
 
 1. [Clone the repo](#1-clone-the-repo).
-2. [Create Watson services](#2-create-watson-services).
-3. [Import the Watson Assistant workspace](#3-import-the-watson-assistant-workspace).
-4. [Load the Watson Discovery documents](#4-load-the-watson-discovery-documents).
-5. [Configure credentials](#5-configure-credentials).
-5. [Run the application](#6-run-the-application).
+2. [Load the data into tables in Db2](#2-load-the-data-into-tables-in-db2).
+3. [Create a Project in Cloud Pak for Data](#3-create-a-project-in-cloud-pak-for-data)
+4. [Add Db2 connection to the project](#4-add-db2-connection-to-the-project).
+5. [Add Data Refinery to the project](#5-add-data-refinery-to-the-project).
+6. [Perform Data Engineering Operations in Data Refinery](#6-perform-data-engineering-operations-in-data-refinery).
+7. [Save the Enhanced Dataset to a table in Db2](#7-save-the-enhanced-dataset-to-a-table-in-db2).
 
 ### 1. Clone the repo
 
-Clone the `watson-banking-chatbot` repo locally. In a terminal, run:
+Clone the `prepare-your-dataset-using-data-refinery-from-db2-cp4` repo locally. In a terminal, run:
 
 ```bash
-git clone https://github.com/IBM/watson-banking-chatbot
+git clone https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d/
 ```
 
 We’ll be using the file [`data/assistant/workspaces/banking.json`](data/assistant/workspaces/banking.json) and the folder
