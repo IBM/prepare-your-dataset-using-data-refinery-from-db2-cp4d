@@ -130,35 +130,39 @@ We will add Data Refinery Flow in the similar way.
 
 ![selectOrders](doc/source/images/selectOrders.png)
 
-5.2. You will now see the Data Refinery Dashboard.
+* You will now see the Data Refinery Dashboard.
 
 ![dataRefineryDashboard](doc/source/images/dataRefineryDashboard.png)
 
-5.3. We will be performing the **Join** in this tutorial. Click on **Operation** on the top left and click on **Join**.
+5.2. We will be performing the **Join** in this tutorial. Click on **Operation** on the top left and click on **Join**.
 
 ![joinOperation](doc/source/images/joinOperation.png)
 
-5.4. Select the **Inner Join** and add the second dataset from our db2 by clicking the button shown.
+5.3. Select the **Inner Join** and add the second dataset from our db2 by clicking the button shown.
 
 ![addDataset](doc/source/images/addDataset1.png)
 
-5.5. We will first join the ORDERS table with ORDERITEMS table from db2. Under *Assets* click on *Connections* and then click on the connection that you created in [step 4](#4-add-db2-connection-to-the-project), click on the schema of your Database and select the table **ORDERITEMS** and finally click on APPLY.
+5.4. We will first join the ORDERS table with ORDERITEMS table from db2. Under *Assets* click on *Connections* and then click on the connection that you created in [step 4](#4-add-db2-connection-to-the-project), click on the schema of your Database and select the table **ORDERITEMS** and finally click on APPLY.
 
 ![selectOrderItems](doc/source/images/selectOrderItems.png) 
 
-5.6. Select the **JOIN KEYS** for ORDERS and ORDERITEMS as **order_id** and click NEXT.
+5.5. Select the **JOIN KEYS** for ORDERS and ORDERITEMS as **order_id** and click NEXT.
 
 ![keyOrderId](doc/source/images/keyOrderId.png) 
 
-5.7. Click on *APPLY* to apply the Join Operation.
+5.6. Click on *APPLY* to apply the Join Operation.
 
 ![applyOperation](doc/source/images/applyOperation.png) 
 
-5.8. Repeat the _steps 5.3_ to _step 5.7_ to add **PRODUCTS** and **SELLERS**.
+* Repeat the _steps 5.2_ to _step 5.6_ to add **PRODUCTS** and **SELLERS**.
 
-5.9. Select the **JOIN KEYS** for ORDERS and PRODUCTS as **product_id**.
+5.8. Select the **JOIN KEYS** for ORDERS and PRODUCTS as **product_id**.
 
 ![](doc/source/images/keyProductId.png)
+
+5.9. Select the **JOIN KEYS** for ORDERS and SELLERS as **seller_id**.
+
+![](doc/source/images/keySellerId.png)
 
 
 ### 6. Save the Enhanced Dataset to a table in Db2
