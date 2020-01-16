@@ -132,7 +132,7 @@ We will add Data Refinery Flow in the similar way.
 
 * You will now see the Data Refinery Dashboard.
 
-![dataRefineryDashboard](doc/sources/images/dataRefineryDashboard.png)
+![dataRefineryDashboard](doc/source/images/dataRefineryDashboard.png)
 
 * We will be performing the **Join** in this tutorial. Click on **Operation** on the top left and click on **Join**.
 
