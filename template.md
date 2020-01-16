@@ -3,8 +3,17 @@
 abstract:               # REQUIRED
 
 authors:                # REQUIRED - Note: can be one or more
-  - name:
-    email:
+  - name: Manoj Jahgirdar
+    email: manoj.jahgirdar@in.ibm.com  
+    
+  - name: Smruthi Raj Mohan
+    email: smrraj32@in.ibm.com
+    
+  - name: Srikanth Manne
+    email: srikanth.manne@in.ibm.com
+    
+  - name: Manjula Hosurmath
+    email: mhosurma@in.ibm.com
 
 completed_date:         # REQUIRED - Note: date format is YYYY-MM-DD
 
