@@ -86,7 +86,7 @@ translators:             # OPTIONAL - Note: can be one or more
   - name:
     email:
 
-type: tutorial|howto    # REQUIRED
+type: tutorial
 
 ---
 
