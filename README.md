@@ -84,13 +84,11 @@ We’ll be using the following files:
 
 ![waitForUpload](doc/source/images/waitForUpload.png)
 
-* Once the table is being created, click on **Load More Data** to add the other three datasets.
+* Once the table is created, click on **Load More Data** to add the other three datasets.
 
 ![loadMoreData](doc/source/images/loadMoreData.png)
 
 * The Other three tables that we will be creating are **ORDERITEMS, PRODUCTS & SELLER** .
-
-![gif](doc/source/images/load_db2.gif)
 
 * Load the olist_order_items_dataset.csv, olist_products_dataset.csv & olist_sellers_dataset.csv by repeating the above steps.
 
