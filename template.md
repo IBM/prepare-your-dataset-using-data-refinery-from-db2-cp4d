@@ -2,7 +2,7 @@
 #Front matter (metadata).
 abstract:               # REQUIRED
 
-authors:                # REQUIRED - Note: can be one or more
+authors:
  - name: "Manoj Jahgirdar"
    email: "manoj.jahgirdar@in.ibm.com"
  - name: "Smruthi Raj Mohan"
@@ -12,13 +12,17 @@ authors:                # REQUIRED - Note: can be one or more
  - name: "Manjula G. Hosurmath"
    email: "mhosurma@in.ibm.com"
 
-completed_date:         # REQUIRED - Note: date format is YYYY-MM-DD
+completed_date: 2020-01-20
 
 components:
-# For a full list of options see https://github.ibm.com/IBMCode/Definitions/blob/master/components.yml
-# Use the "slug" value found at the link above to include it in this content.
-# Example (remove the # to uncomment):
- # - "aix"
+- slug: "ibm-db2-database"
+  name: "IBM Db2 Database"
+  url: "https://www.ibm.com/analytics/us/en/db2/"
+  type: "component"
+- slug: "cloud-pak-for-data"
+  name: "IBM Cloud Pak for Data"
+  url: "https://www.ibm.com/analytics/cloud-pak-for-data"
+  type: "component"
 
 draft: true|false       # REQUIRED
 
