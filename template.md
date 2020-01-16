@@ -4,10 +4,9 @@ abstract:               # REQUIRED
 
 authors:                # REQUIRED - Note: can be one or more
   - name: Manoj Jahgirdar
-    email: manoj.jahgirdar@in.ibm.com  
-    
-  - name: Smruthi Raj Mohan
-    email: smrraj32@in.ibm.com
+          Smruthi Raj Mohan
+    email: manoj.jahgirdar@in.ibm.com 
+           smrraj32@in.ibm.com
     
   - name: Srikanth Manne
     email: srikanth.manne@in.ibm.com
