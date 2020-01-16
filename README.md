@@ -188,29 +188,19 @@ Once the operations are performed its time to save the result in a table. By Def
 
 #### 6.2 Run the Data Refinery Job
 
+* Click on the **Save and create a Job** as shown.
 
+![createJob](doc/source/images/createJob.png)
 
-# Sample output
+* Give a name to the Job and finally click on **Create and Run**.
 
-![sample_output](doc/source/images/sample_output.png)
+![createRun](doc/source/images/createRun.png)
 
-<!--Optionally, include any troubleshooting tips (driver issues, etc)-->
+* The Job will start **running** and it will take approximately 4-5min to complete.
 
-# Troubleshooting
+![runningJob](doc/source/images/runningJob.png)
 
-* Error: Environment {GUID} is still not active, retry once status is active
-
-  > This is common during the first run. The app tries to start before the Watson Discovery
-environment is fully created. Allow a minute or two to pass. The environment should
-be usable on restart. If you used **Deploy to IBM Cloud** the restart should be automatic.
-
-* Error: Only one free environment is allowed per organization
-
-  > To work with a free trial, a small free Watson Discovery environment is created. If you already have
-a Watson Discovery environment, this will fail. If you are not using Watson Discovery, check for an old
-service thay you might want to delete. Otherwise, use the `.env DISCOVERY_ENVIRONMENT_ID` to tell
-the app which environment you want it to use. A collection will be created in this environment
-using the default configuration.
+* Once The Job **Status** becomes **Completed**, you can check your database to see a new table with a name **four_tables_merged** with the result.
 
 <!-- keep this -->
 ## License
