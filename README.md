@@ -36,7 +36,7 @@ When you have completed this code pattern, you will understand how to:
 3. [Create a Project in Cloud Pak for Data](#3-create-a-project-in-cloud-pak-for-data)
 4. [Add Db2 connection to the project](#4-add-db2-connection-to-the-project).
 5. [Add Data Refinery to the project and perform Data Engineering Operations](#5-add-data-refinery-to-the-project-and-perform-data-engineering-operations).
-6. [Save the Enhanced Dataset to a table in Db2](#6-save-the-enhanced-dataset-to-a-table-in-db2).
+6. [Save the Enhanced Dataset to a table in Db2 and Run the Job](#6-save-the-enhanced-dataset-to-a-table-in-db2-and-run-the-job).
 
 ### 1. Download the data.
 
@@ -165,7 +165,28 @@ We will add Data Refinery Flow in the similar way.
 ![](doc/source/images/keySellerId.png)
 
 
-### 6. Save the Enhanced Dataset to a table in Db2
+### 6. Save the Enhanced Dataset to a table in Db2 and Run the Job
+
+Once the operations are performed its time to save the result in a table. By Default the resulting table will be saved as a `.csv` file in the project but we will change the output path to the Db2 database. 
+
+#### 6.1 Save the Enhanced Dataset to a table in Db2
+
+* Click on the **Edit** button on the top right as shown.
+
+![editButton](doc/source/images/editButton.png)
+
+* Then click on the **Pencil button** as shown.
+
+![edit2](doc/source/images/edit2.png)
+
+* Click on **Change Location**, under *Assets* click on *Connections* and then click on the connection that you created in [step 4](#4-add-db2-connection-to-the-project), click on the schema of your Database and finally click on **SAVE LOCATION**.
+
+![selectDbLocation](doc/source/images/selectDbLocation.png)
+
+* Name the Dataset **four_tables_merged** and click on done.
+![tickButton](doc/source/images/tickButton.png) 
+
+#### 6.2 Run the Data Refinery Job
 
 
 
