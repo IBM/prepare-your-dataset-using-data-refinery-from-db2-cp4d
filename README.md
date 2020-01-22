@@ -135,6 +135,7 @@ We’ll be using the following files:
 **NOTE: We are Assuming you have already Provisioned a Db2 Instance in your Cloud Pak for Data. If you do not have Db2 Instance Provisioned you can also use other on-prem, public or private Databases of your choice and load the datasets.**
 
 * Open the Db2 Instance and click on load data.
+
 **Note: Make sure you have selected the default schema of your database. In case of Db2 your default Schema is your username.**
 
 ![loadData](doc/source/images/loadData.png)
