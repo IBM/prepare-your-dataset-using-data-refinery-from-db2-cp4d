@@ -31,6 +31,8 @@ We’ll be using the following files:
 
 * Now click on **Manage** on the left panel and then click on **Open Console** to open the Db2 Console.
 
+![openConsole](doc/source/images/openConsole.png)
+
 * Once the Db2 Console is opened, click on **load data.**
 
 ![loadData](doc/source/images/loadData.png)
