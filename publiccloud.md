@@ -65,20 +65,19 @@ We’ll be using the following files:
 
 * Load the `olist_order_items_dataset.csv` and name the table **ORDERITEMS**, load `olist_products_dataset.csv` and name the table **PRODUCTS** & finally load `olist_sellers_dataset.csv` and name the table **SELLERS** by repeating the above steps.
 
-### Step 3: Create a Watson Studio Resource
+### Step 3: Create a Watson Studio Service
 
 Once the Database is ready, we will start using the database in our Watson Studio on IBM Cloud. 
 
-* Create a [Watson Studio Resource](https://cloud.ibm.com/catalog/services/watson-studio).
-![watsonStudio](doc/source/images/watsonStudio.png)
+* Create [**Watson Studio**](https://cloud.ibm.com/catalog/services/watson-studio) service.
 
-* Create a Project in Watson Studio.
+![createwatsonstudio](/doc/source/images/createwatsonstudio.png)
 
-![createProject](doc/source/images/emptyProject.png)
+* Then click on **Get Started**.
 
-* Once The Project is Created you will see the below page.
+* In Watson Studio click **`Create a project > Create an empty project`** and name it **_`Retail`_**.
 
-![projectDashboard](doc/source/images/projectDashboard.png)
+![watsonstudioproject](/doc/source/images/watsonstudioproject.png)
 
 ### Step 4: Add Db2 connection to the project
 
