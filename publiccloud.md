@@ -18,9 +18,20 @@ We’ll be using the following files:
 4. [`brazilian-ecommerce/olist_sellers_dataset.csv`]() : This dataset includes data about the sellers that fulfilled orders made at Olist. 
 
 ### Step 2: Load the data into tables in Db2
-**NOTE: We are Assuming you have already Provisioned a Db2 Instance in your Cloud Pak for Data. If you do not have Db2 Instance Provisioned you can also use other on-prem, public or private Databases of your choice and load the datasets.**
 
-* Open the Db2 Instance and click on load data.
+**NOTE: You can Skip this step if you do not want to use Db2 Instance as you can use other on-prem, public or private Databases of your choice and load the datasets.**
+
+* Create a [Db2 Resource](https://cloud.ibm.com/catalog/services/db2).
+![db2Resource](doc/source/images/db2Resource.png)
+
+* Once the Resource is ready click on **Service Credentials** on the left panel and then click **view credentials**.
+![viewCredentials](doc/source/images/viewCredentials.png)
+
+**NOTE: Copy these credentials as it will be used in [Step 4](#-4-add-db2-connection-to-the-project).**
+
+* Now click on **Manage** on the left panel and then click on **Open Console** to open the Db2 Console.
+
+* Once the Db2 Console is opened, click on **load data.**
 
 ![loadData](doc/source/images/loadData.png)
 
