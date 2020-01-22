@@ -114,6 +114,10 @@ Completing this tutorial should take about 30 minutes.
 
 ## Steps
 
+## Deploy on Cloud Pak for Data
+
+## Deploy on IBM Cloud
+
 ## Summary
 
 A Data Scientist cannot directly build a model based on the dataset, the data collection and analysis is very essential before building a model. This tutorial allows Data Scientists to perform data engineering operations to any data easily hence reducing the time spent on a data engineering operation and Data Scientists can focus mainly on building a model. The main advantage of the Data Refinery capabilities of IBM Cloud Pak for Data is Creating a set of ordered steps to cleanse, shape, and enhance data.
