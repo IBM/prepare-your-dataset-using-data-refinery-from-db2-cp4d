@@ -136,8 +136,6 @@ We’ll be using the following files:
 
 * Open the Db2 Instance and click on load data.
 
-**Note: Make sure you have selected the default schema of your database. In case of Db2 your default Schema is your username.**
-
 ![loadData](doc/source/images/loadData.png)
 
 * Select the **olist_orders_dataset.csv** file and select next.
@@ -145,6 +143,8 @@ We’ll be using the following files:
 ![browseFile](doc/source/images/browseFiles.png)
 
 * Choose your namespace and create a table named **ORDERS** and select next.
+
+**Note: Make sure you have selected the default schema of your database. In case of Db2 your default Schema is your username.**
 
 ![createTable](doc/source/images/createTable.png)
 
