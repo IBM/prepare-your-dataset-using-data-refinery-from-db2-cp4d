@@ -135,6 +135,7 @@ We’ll be using the following files:
 **NOTE: We are Assuming you have already Provisioned a Db2 Instance in your Cloud Pak for Data. If you do not have Db2 Instance Provisioned you can also use other on-prem, public or private Databases of your choice and load the datasets.**
 
 * Open the Db2 Instance and click on load data.
+**Note: Make sure you have selected the default schema of your database. In case of Db2 your default Schema is your username.**
 
 ![loadData](doc/source/images/loadData.png)
 
@@ -154,7 +155,7 @@ We’ll be using the following files:
 
 ![beginLoad](doc/source/images/beginLoad.png)
 
-* Wait for the upload to finish and then you can add the other three datasets **olist_order_items_dataset.csv**, **olist_products_dataset.csv** & **olist_sellers_dataset.csv** in the similar way.
+* Wait for the upload to finish.
 
 ![waitForUpload](doc/source/images/waitForUpload.png)
 
@@ -162,9 +163,7 @@ We’ll be using the following files:
 
 ![loadMoreData](doc/source/images/loadMoreData.png)
 
-* The Other three tables that we will be creating are **ORDERITEMS, PRODUCTS & SELLER** .
-
-* Load the olist_order_items_dataset.csv, olist_products_dataset.csv & olist_sellers_dataset.csv by repeating the above steps.
+* Load the `olist_order_items_dataset.csv` and name the table **ORDERITEMS**, load `olist_products_dataset.csv` and name the table **PRODUCTS** & finally load `olist_sellers_dataset.csv` and name the table **SELLERS** by repeating the above steps.
 
 ### Step 3: Create a Project in Cloud Pak for Data
 
@@ -190,6 +189,8 @@ Now that we have created a project, we will start adding components to our proje
 
 ![connection](doc/source/images/connImage.png)
 
+**NOTE: The Database Credentials will be provided by your Database administrator. If you have provisioned a Db2 instance on Cloud Pak for Data then you can follow the steps [here](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/zen/admin/create-db.html#create-db) to get the credentials.**
+
 ### Step 5: Add Data Refinery to the project and perform Data Engineering Operations
 
 #### 5.1 Add Data Refinery to the project
@@ -208,7 +209,7 @@ We will add Data Refinery Flow in the similar way.
 
 ![dataRefineryDashboard](doc/source/images/dataRefineryDashboard.png)
 
-#### 5.2 Add Data Refinery to the project
+#### 5.2 Perform Data Engineering Operations
 
 5.2.1 We will be performing the **Join** in this tutorial. Click on **Operation** on the top left and click on **Join**.
 
@@ -230,7 +231,7 @@ We will add Data Refinery Flow in the similar way.
 
 ![applyOperation](doc/source/images/applyOperation.png) 
 
-* Repeat the _steps 5.2.1_ to _step 5.2.5_ to add **PRODUCTS** and **SELLERS**.
+* Repeat the _steps 5.2.1_ to _step 5.2.5_ to keep joining data to the original by product id and seller id.
 
 * Select the **JOIN KEYS** for ORDERS and PRODUCTS as **product_id**.
 
