@@ -114,9 +114,19 @@ Completing this tutorial should take about 30 minutes.
 
 ## Steps
 
+Follow the **Deploy on Cloud Pak for Data** Tutorial if you wish to deploy on Cloud Pak for Data or **Deploy on IBM Cloud** Tutorial if you wish to deploy on IBM Cloud.
+
 ## Deploy on Cloud Pak for Data
 
+Follow the tutorial to deploy on Cloud Pak for Data.
+
+- [Deploy on Cloud Pak for Data](#cloudpak.md)
+
 ## Deploy on IBM Cloud
+
+Follow the tutorial to deploy on IBM Cloud.
+
+- [Deploy on IBM Cloud](#publiccloud.md)
 
 ## Summary
 
