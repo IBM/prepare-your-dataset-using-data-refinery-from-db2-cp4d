@@ -65,11 +65,14 @@ We’ll be using the following files:
 
 * Load the `olist_order_items_dataset.csv` and name the table **ORDERITEMS**, load `olist_products_dataset.csv` and name the table **PRODUCTS** & finally load `olist_sellers_dataset.csv` and name the table **SELLERS** by repeating the above steps.
 
-### Step 3: Create a Project in Cloud Pak for Data
+### Step 3: Create a Watson Studio Resource
 
-Once the Database is ready, we will start using the database in our Cloud Pak for Data. 
+Once the Database is ready, we will start using the database in our Watson Studio on IBM Cloud. 
 
-* Create a Project in Cloud Pak for Data choose an Empty Project.
+* Create a [Watson Studio Resource](https://cloud.ibm.com/catalog/services/watson-studio).
+![watsonStudio](doc/source/images/watsonStudio.png)
+
+* Create a Project in Watson Studio.
 
 ![createProject](doc/source/images/emptyProject.png)
 
