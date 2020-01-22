@@ -87,7 +87,7 @@ Now that we have created a project, we will start adding components to our proje
 
 ![gif](doc/source/images/create_connection2.gif)
 
-* After filling the credentials click on **Test Connection** to make sure you have entered correct credentials. Finally select **Create**.
+* After filling the credentials click on **Create**.
 
 ![connection](doc/source/images/connImage2.png)
 
@@ -101,7 +101,7 @@ We will add Data Refinery Flow in the similar way.
 
 * Click on **Add to Project** and select **Data Refinery Flow**. 
 
-![dataRefinery](doc/source/images/dataRefinery.png)
+![dataRefinery](doc/source/images/dataRefinery2.png)
 
 * Under *Assets* click on *Connections* and then click on the connection that you created in [step 4](#4-add-db2-connection-to-the-project), click on the schema of your Database and select the table **ORDERS** and finally click on ADD.
 
