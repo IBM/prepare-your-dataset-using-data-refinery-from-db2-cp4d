@@ -106,7 +106,7 @@ When you have completed this code pattern, you will understand how to:
 ## Prerequisites
 
 1. Any SQL Database.
->In this Tutorial we have demonstrated with [Db2 on Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/db2z/create_database_db2z.html).
+>In this Tutorial we have demonstrated with [Db2 on Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/db2z/create_database_db2z.html) and [Db2 on Cloud]().
 
 ## Estimated time
 
