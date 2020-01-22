@@ -120,13 +120,13 @@ Follow the **Deploy on Cloud Pak for Data** Tutorial if you wish to deploy on Cl
 
 Follow the tutorial to deploy on Cloud Pak for Data.
 
-- [Deploy on Cloud Pak for Data](#cloudpak.md)
+- [Deploy on Cloud Pak for Data](https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d/blob/master/cloudpak.md)
 
 ## Deploy on IBM Cloud
 
 Follow the tutorial to deploy on IBM Cloud.
 
-- [Deploy on IBM Cloud](#publiccloud.md)
+- [Deploy on IBM Cloud](https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d/blob/master/publiccloud.md)
 
 ## Summary
 
