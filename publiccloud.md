@@ -109,7 +109,7 @@ We will add Data Refinery Flow in the similar way.
 
 * You will now see the Data Refinery Dashboard.
 
-![dataRefineryDashboard](doc/source/images/dataRefineryDashboard.png)
+![dataRefineryDashboard](doc/source/images/dataRefineryDashboard2.png)
 
 #### 5.2 Perform Data Engineering Operations
 
@@ -123,7 +123,7 @@ We will add Data Refinery Flow in the similar way.
 
 5.2.3 We will first join the ORDERS table with ORDERITEMS table from db2. Under *Assets* click on *Connections* and then click on the connection that you created in [step 4](#4-add-db2-connection-to-the-project), click on the schema of your Database and select the table **ORDERITEMS** and finally click on APPLY.
 
-![selectOrderItems](doc/source/images/selectOrderItems.png) 
+![selectOrderItems](doc/source/images/selectOrderItems2.png) 
 
 5.2.4 Select the **JOIN KEYS** for ORDERS and ORDERITEMS as **order_id** and click NEXT.
 
