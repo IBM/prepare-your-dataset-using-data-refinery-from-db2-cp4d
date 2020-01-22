@@ -85,13 +85,13 @@ Now that we have created a project, we will start adding components to our proje
 
 * Click on **Add to Project** and select **Connection**. If you have followed [step 2](#2-load-the-data-into-tables-in-db2) select **Db2** from the list and add the credentials of your provisioned Db2 Instance. If you have a different database then you can select that and fill in the credentials.
 
-![gif](doc/source/images/create_connection.gif)
+![gif](doc/source/images/create_connection2.gif)
 
 * After filling the credentials click on **Test Connection** to make sure you have entered correct credentials. Finally select **Create**.
 
-![connection](doc/source/images/connImage.png)
+![connection](doc/source/images/connImage2.png)
 
-**NOTE: The Database Credentials will be provided by your Database administrator. If you have provisioned a Db2 instance on Cloud Pak for Data then you can follow the steps [here](https://www.ibm.com/support/knowledgecenter/SSQNUZ_2.1.0/com.ibm.icpdata.doc/zen/admin/create-db.html#create-db) to get the credentials.**
+**NOTE: The Database Credentials are generated in [Step 2]()**
 
 ### Step 5: Add Data Refinery to the project and perform Data Engineering Operations
 
