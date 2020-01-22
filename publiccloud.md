@@ -105,7 +105,7 @@ We will add Data Refinery Flow in the similar way.
 
 * Under *Assets* click on *Connections* and then click on the connection that you created in [step 4](#4-add-db2-connection-to-the-project), click on the schema of your Database and select the table **ORDERS** and finally click on ADD.
 
-![selectOrders](doc/source/images/selectOrders.png)
+![selectOrders](doc/source/images/selectOrders2.png)
 
 * You will now see the Data Refinery Dashboard.
 
@@ -115,11 +115,11 @@ We will add Data Refinery Flow in the similar way.
 
 5.2.1 We will be performing the **Join** in this tutorial. Click on **Operation** on the top left and click on **Join**.
 
-![joinOperation](doc/source/images/joinOperation.png)
+![joinOperation](doc/source/images/joinOperation2.png)
 
 5.2.2 Select the **Inner Join** and add the second dataset from our db2 by clicking the button shown.
 
-![addDataset](doc/source/images/addDataset1.png)
+![addDataset](doc/source/images/addDataset12.png)
 
 5.2.3 We will first join the ORDERS table with ORDERITEMS table from db2. Under *Assets* click on *Connections* and then click on the connection that you created in [step 4](#4-add-db2-connection-to-the-project), click on the schema of your Database and select the table **ORDERITEMS** and finally click on APPLY.
 
@@ -127,21 +127,21 @@ We will add Data Refinery Flow in the similar way.
 
 5.2.4 Select the **JOIN KEYS** for ORDERS and ORDERITEMS as **order_id** and click NEXT.
 
-![keyOrderId](doc/source/images/keyOrderId.png) 
+![keyOrderId](doc/source/images/keyOrderId2.png) 
 
 5.2.5 Click on *APPLY* to apply the Join Operation.
 
-![applyOperation](doc/source/images/applyOperation.png) 
+![applyOperation](doc/source/images/applyOperation2.png) 
 
 * Repeat the _steps 5.2.1_ to _step 5.2.5_ to keep joining data to the original by product id and seller id.
 
 * Select the **JOIN KEYS** for ORDERS and PRODUCTS as **product_id**.
 
-![](doc/source/images/keyProductId.png)
+![](doc/source/images/keyProductId2.png)
 
 * Select the **JOIN KEYS** for ORDERS and SELLERS as **seller_id**.
 
-![](doc/source/images/keySellerId.png)
+![](doc/source/images/keySellerId2.png)
 
 ### Step 6: Save the Enhanced Dataset to a table in Db2 and Run the Job
 
@@ -151,31 +151,31 @@ Once the operations are performed its time to save the result in a table. By Def
 
 * Click on the **Edit** button on the top right as shown.
 
-![editButton](doc/source/images/editButton.png)
+![editButton](doc/source/images/editButton2.png)
 
 * Then click on the **Pencil button** as shown.
 
-![edit2](doc/source/images/edit2.png)
+![edit2](doc/source/images/edit22.png)
 
 * Click on **Change Location**, under *Assets* click on *Connections* and then click on the connection that you created in [step 4](#4-add-db2-connection-to-the-project), click on the schema of your Database and finally click on **SAVE LOCATION**.
 
-![selectDbLocation](doc/source/images/selectDbLocation.png)
+![selectDbLocation](doc/source/images/selectDbLocation2.png)
 
 * Name the Dataset **four_tables_merged** and click on done.
-![tickButton](doc/source/images/tickButton.png) 
+![tickButton](doc/source/images/tickButton2.png) 
 
 #### 6.2 Run the Data Refinery Job
 
 * Click on the **Save and create a Job** as shown.
 
-![createJob](doc/source/images/createJob.png)
+![createJob](doc/source/images/createJob2.png)
 
 * Give a name to the Job and finally click on **Create and Run**.
 
-![createRun](doc/source/images/createRun.png)
+![createRun](doc/source/images/createRun2.png)
 
 * The Job will start **running** and it will take approximately 4-5min to complete.
 
-![runningJob](doc/source/images/runningJob.png)
+![runningJob](doc/source/images/runningJob2.png)
 
 * Once The Job **Status** becomes **Completed**, you can check your database to see a new table with a name **four_tables_merged** with the result.
