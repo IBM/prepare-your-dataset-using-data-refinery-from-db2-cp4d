@@ -108,6 +108,8 @@ When you have completed this code pattern, you will understand how to:
 1. Any SQL Database.
 >In this Tutorial we have demonstrated with [Db2 on Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/db2z/create_database_db2z.html) and [Db2 on Cloud](https://cloud.ibm.com/catalog/services/db2).
 
+2. [IBM Cloud Account](https://cloud.ibm.com/) - If you prefer to deploy on IBM Cloud.
+
 ## Estimated time
 
 Completing this tutorial should take about 30 minutes.
