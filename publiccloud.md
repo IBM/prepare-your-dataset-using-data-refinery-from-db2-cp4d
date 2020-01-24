@@ -1,5 +1,11 @@
 # Deploy on IBM Cloud
 
+## Pre-requisites
+
+1. [IBM Cloud Account](https://cloud.ibm.com/)
+
+## Steps
+
 ### Step 1: Download the data
 
 In this Tutorial we are going to use **Brazilian E-Commerce Public Dataset by Olist** from Kaggle. Download the dataset from the link given below.
