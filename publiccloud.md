@@ -163,7 +163,9 @@ Once the operations are performed its time to save the result in a table. By Def
 
 ![selectDbLocation](doc/source/images/selectDbLocation2.png)
 
-* Name the Dataset **four_tables_merged** and click on done.
+* Name the Dataset **DERIVEDDATA** and click on done.
+>NOTE: Use Uppercase naming only, as Db2 stores in Uppercase.
+
 ![tickButton](doc/source/images/tickButton2.png) 
 
 #### 6.2 Run the Data Refinery Job
