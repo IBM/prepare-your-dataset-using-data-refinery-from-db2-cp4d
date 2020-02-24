@@ -118,13 +118,11 @@ Completing this tutorial should take about 30 minutes.
 
 Following this tutorial you can deploy on either Cloud Pak for Data or IBM Cloud.
 
-- [**Deploy on Cloud Pak for Data**](#deploy-on-cloud-pak-for-data)
+- [**Steps to deploy on Cloud Pak for Data**](#steps-to-deploy-on-cloud-pak-for-data)
 
-- [**Deploy on IBM Cloud**](#deploy-on-ibm-cloud)
+- [**Steps to deploy on IBM Cloud**](#steps-to-deploy-on-ibm-cloud)
 
-## Deploy on Cloud Pak for Data
-
-## Steps
+## Steps to deploy on Cloud Pak for Data
 
 ### Step 1: Download the data
 
@@ -294,9 +292,7 @@ Once the operations are performed its time to save the result in a table. By Def
 * Once The Job **Status** becomes **Completed**, you can check your database to see a new table with a name **four_tables_merged** with the result.
 
 
-## Deploy on IBM Cloud 
-
-## Steps
+## Steps to deploy on IBM Cloud 
 
 ### Step 1: Download the data
 
