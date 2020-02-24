@@ -120,6 +120,8 @@ Follow the [**Deploy on Cloud Pak for Data**](#deploy-on-cloud-pak-for-data) Tut
 
 ## Deploy on Cloud Pak for Data
 
+## Steps
+
 ### Step 1: Download the data
 
 In this Tutorial we are going to use **Brazilian E-Commerce Public Dataset by Olist** from Kaggle. Download the dataset from the link given below.
@@ -290,6 +292,7 @@ Once the operations are performed its time to save the result in a table. By Def
 
 ## Deploy on IBM Cloud 
 
+## Steps
 
 ### Step 1: Download the data
 
